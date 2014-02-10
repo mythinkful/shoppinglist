@@ -1,20 +1,11 @@
-
-body {
-	padding:  50px;
-}
-
-
-#checkbox {margin-right: 10px; }
-span {margin: 0 10px; padding: 5px;}
-
 #container { 
 	width: 400px; margin:  0 auto; 
 }
 
-#shoppingForm { width: 400px; margin: 0 auto;}
-
 #formHeader {
-	background-color: #37cb43;
+	background-color: green;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
 }
 
 #wrapper {
@@ -26,15 +17,9 @@ h1 {
 	font-style: italic;
 	text-align: center;
 }
-#item {font-size: 20px;}
-}
-	
-#add #delete {
-	margin: 5px; 
-	padding: 10px; 
-	font-family: verdana; 
-	font-size: 25px;
-}
+#list {border: 2px solid green;}
+
+span {margin: 0 10px; padding: 5px;}
 
 p {
 	list-style: none;
@@ -46,10 +31,10 @@ p {
 	font-weight: bold;
 	border-bottom: 1px dashed gray;
 }
-#list {padding: 5px;}
-/*.strike { text-decoration: line-through;}*/
+
 #item {
 	margin: 20px;
-	padding:  5px;	
+	padding:  5px;
+	font-size: 20px;	
 }
 
