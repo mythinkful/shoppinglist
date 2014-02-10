@@ -10,11 +10,15 @@
 <body>
 	
 	
-	<div>
-		<h1>Shopping List</h1>
-		<input type="text" id="item"><button id="add">Add</button><button id="delete">Delete Checked</button>
+	<div id="wrapper">
+		<div id="formHeader">
+			<h1>Shopping List</h1>
+			<input type="text" id="item" size="50" maxlength="43">
+			<button id="add" class="btnAdd">Add</button>
+			<button id="delete" class="btnDelete">Delete</button>
+		</div>
 		<div id="list">
-			<p><input class="done" type="checkbox" /><span>Bread</span></p>
+			<p><input  type="checkbox" /><span>Bread</span></p>
 			<p><input class="done" type="checkbox" /><span>Butter</span></p>
 
 		</div>
